@@ -1,0 +1,2 @@
+Bonjour <b><?php echo $trainee['first_name'].' '.$trainee['last_name'] ?></b><br/>
+Nous vous rappelons de votre formation <b><?php echo $training['title']; ?></b> du <b><?php echo $training['start_date']; ?></b> pour plus de détails consultez votre <a href="<?php echo base_url('user/training/show/'.$training['id']); ?>">espace client</a>.
